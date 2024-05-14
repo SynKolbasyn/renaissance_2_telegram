@@ -7,4 +7,4 @@ WORKDIR /usr/src/the_game/
 ADD Cargo.toml ./
 ADD Cargo.lock ./
 
-CMD ["cargo", "run"]
+CMD ["cargo", "run", "-r"]
